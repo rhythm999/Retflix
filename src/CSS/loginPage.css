@@ -1,0 +1,121 @@
+
+.navbar{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0vh;
+    position: fixed;
+    background-color: black;
+    transition: 0.5s;
+    padding-left: 1vw;
+    width: 100vw;
+    display: flex;
+    opacity: 1;
+}
+.transparent{
+    background-color: transparent;
+}
+#Retflix{
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.7;
+}
+#Retflix:hover{
+    
+    opacity: 1;
+}
+.SignIn{
+    background-color: red;
+    color: white;
+    position: fixed;
+    height: 5vh;
+    width: 6vw;
+    right: 3vw;
+    top: 4vh;
+}
+.getStarted{
+    height: 80vh;
+    position: relative;
+    background-image: url("https://wallpapercave.com/wp/wp1917172.jpg");
+    background-size: cover;
+    border-bottom: 6px solid grey;
+    background-color: black;
+    color: white;
+}
+.contactInfo{
+    height: 30vh;
+    position: relative;
+    background-color: #1f2327;
+    color: white;
+}
+.detailContainer{
+    color: white;
+    height: 30vh;
+    width: 47vw;
+    position: relative;
+    top: 28vh;
+    left: 25vw;
+    text-align: center;
+}
+.head{
+    font-size: 5rem;
+}
+.head2{
+    font-size: 3rem;
+}
+.detailContainer2{
+    background-color: rgb(214 33 33);
+    color: white;
+    height: 19vh;
+    width: 26vw;
+    position: relative;
+    top: 49vh;
+    text-align: center;
+    left: 71vw;
+}
+.posterTwo{
+    background-image: url("https://wallpaperbat.com/img/250221-bored-of-waiting-so-heres-some-wallpaper-for-yo-all.jpg");
+    background-size: cover;
+    height: 90vh;
+    border-bottom: 6px solid grey;
+}
+.posterThree{
+    background-image: url("https://wallpaperbat.com/img/343546-netflix-kingdom-wallpaper-hd-tv-series-4k-wallpaper-image.jpg");
+    background-size: cover;
+    height: 90vh;
+    border-bottom: 6px solid grey;
+}
+.detailContainer3{
+    background-color: rgb(214 33 33);
+    color: white;
+    height: 16vh;
+    width: 38vw;
+    position: relative;
+    top: 49vh;
+    left: 3vw;
+    text-align: center;
+}
+.play_btn{
+    font-size: 18vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    opacity: 0.4;
+}
+.play_btn:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.detailContact{
+    color: red;
+    height: 20vh;
+    width: 71vw;
+    position: relative;
+    top: 5vh;
+    left: 15vw;
+    text-align: center;
+}

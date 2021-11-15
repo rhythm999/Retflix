@@ -1,0 +1,57 @@
+.poster{
+    height: 90vh;
+    background-image: url("https://wallpapercave.com/wp/wp1917135.jpg");
+    background-size: cover;
+    width: 99vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginBox{
+    background-color: black;
+    height: 50vh;
+    width: 20vw;
+    opacity: 0.8;
+    align-items:stretch ;
+}
+.GoogleLogin{
+    height: 6vh;
+    width: 25vh;
+    cursor: pointer;
+    background-image: url("https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png");
+    background-size: cover;
+}
+.GoogleLogin:hover{
+    height: 7vh;
+    width: 29vh;
+}
+hr {
+    margin: 0.2rem ;
+    background-color: red;
+    height: 1rem;
+    border: none;
+    opacity: 1;
+    position: relative;
+    top: 1rem;
+}
+form{
+    position: relative;
+    top: 1rem;
+    padding: 20px;
+    color: white;
+}
+.sources{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}

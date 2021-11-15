@@ -1,0 +1,56 @@
+.black{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatarBox{
+    height: 40vh;
+    width: 30vw;
+    background-color: rgb(39, 35, 35);
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.box1,.box2,.box3,.box4{
+    height: 20vh;
+    width: 15vw;
+    align-items: center;
+    color: white;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover{
+    background-color:#e50914 ;
+    border-radius:2rem ;
+}
+
+.box1>img,.box2>img,.box3>img,.box4 >img{
+    height: 10vh;
+    width: 5vw;
+    background-size: cover;
+    margin-top:4vh ;
+    margin-left: 4.5vw;
+    border-radius: 2rem;
+}
+div >div>p{
+    margin-top: 1vh;
+    margin-left: 5.6vw;
+    font-weight: bold;
+    text-decoration: wavy;
+}
+
+.Logout{
+    height: 6vh;
+    width: 6vw;
+    position: absolute;
+    top: 2vh;
+    right: 3vw;
+    border-radius: 37px;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    box-shadow: 2px 3px 5px 1px;
+}
